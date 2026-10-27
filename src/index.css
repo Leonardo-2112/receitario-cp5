@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+
+    --font-display: "Space Grotesk", sans-serif;
+
+    --font-sans: "Inter", sans-serif;
+
+    --font-mono: "IBM Plex Mono", monospace
+}
+
+@layer base {
+
+    /* Fundo culinário: padrão de ícones bem suave sobre o tom claro da página.
+       Para trocar por uma foto, basta apontar o url() para outra imagem em /public */
+    body {
+        @apply bg-stone-50 text-neutral-900 font-sans antialiased;
+        background-image: url('/bg-culinaria.svg');
+        background-size: 420px 420px;
+        background-repeat: repeat;
+    }
+
+    button:not(:disabled) {
+        @apply cursor-pointer
+    }
+
+}
+
+@layer components {
+
+    .card {
+        @apply rounded-2xl border border-stone-200 bg-white
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center justify-center gap-1.5 rounded-full bg-orange-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-orange-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-60
+    }
+
+    .field {
+        @apply rounded-full border border-stone-300 bg-white px-4 py-2 text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500
+
+    }
+
+    /* Grade de receitas: 1 coluna no celular, 2 em telas pequenas, 3 em médias e 4 em telas grandes */
+    .recipe-grid {
+        @apply grid grid-cols-1 gap-5 min-[480px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4
+    }
+
+}
