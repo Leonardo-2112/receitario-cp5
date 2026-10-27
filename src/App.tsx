@@ -1,9 +1,20 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { MainLayout } from "./layouts/MainLayout"
+
 import "./index.css"
 
 function App() {
 
   return (
-    <h1 className="p-8 text-3xl font-bold">Receitário</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+
+         
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
