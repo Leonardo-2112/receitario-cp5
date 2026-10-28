@@ -15,11 +15,11 @@ Tecnologias: React, Vite, TypeScript, Tailwind CSS, lucide-react, react-router-d
 
 ## Deploy
 
-https://receitario-cp5.vercel.app/
+> **(https://receitario-cp5.vercel.app/)** 
 
 ## Print do catálogo
 
-> **TODO:** adicionar aqui o print da tela do catálogo (`/`) depois do deploy.
+> **![Tela do catálogo](docs/catalogo.png)**
 
 ## Como rodar
 
