@@ -15,7 +15,7 @@ Tecnologias: React, Vite, TypeScript, Tailwind CSS, lucide-react, react-router-d
 
 ## Deploy
 
-> **TODO:** colar aqui a URL pública da Vercel depois do deploy.
+https://receitario-cp5.vercel.app/
 
 ## Print do catálogo
 
