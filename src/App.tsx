@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { lazy } from "react"
 import { MainLayout } from "./layouts/MainLayout"
+import { NotFoundPage } from "./pages/NotFoundPage"
 
 import "./index.css"
 
@@ -18,6 +19,10 @@ function App() {
         <Route element={<MainLayout />}>
           <Route index element={<CatalogPage />} />
           <Route path="/receitas/:id" element={<RecipePage />} />
+
+          {/*Catch-all*/}
+          <Route path="*" element={<NotFoundPage />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
