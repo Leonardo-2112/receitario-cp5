@@ -6,7 +6,7 @@ Tecnologias: React, Vite, TypeScript, Tailwind CSS, lucide-react, react-router-d
 
 ## Integrantes
 
-| Nome | RM |
+| Nome | RM | 
 | Leonardo Afonço Sousa | RM573982 |
 | Vitor Gonçalves de Souza | RM569023 |
 | Syang Cristina Gomes Souza | RM569259 |
