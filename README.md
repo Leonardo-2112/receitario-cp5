@@ -6,7 +6,8 @@ Tecnologias: React, Vite, TypeScript, Tailwind CSS, lucide-react, react-router-d
 
 ## Integrantes
 
-| Nome | RM | 
+| Nome | RM |
+| ---- | -- |
 | Leonardo Afonço Sousa | RM573982 |
 | Vitor Gonçalves de Souza | RM569023 |
 | Syang Cristina Gomes Souza | RM569259 |
@@ -15,11 +16,11 @@ Tecnologias: React, Vite, TypeScript, Tailwind CSS, lucide-react, react-router-d
 
 ## Deploy
 
-> **(https://receitario-cp5.vercel.app/)** 
+[https://receitario-cp5.vercel.app](https://receitario-cp5.vercel.app)
 
 ## Print do catálogo
 
-> **![Tela do catálogo](docs/catalogo.png)**
+![Tela do catálogo](docs/catalogo.png)
 
 ## Como rodar
 
